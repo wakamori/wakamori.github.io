@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://twaka.net/blog/2014/01/13/title/</loc>
+        <lastmod>2014-01-18T09:44:36+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://twaka.net/blog/2014/01/13/book001/</loc>
+        <lastmod>2014-01-18T09:39:35+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://twaka.net/blog/2014/01/13/book002/</loc>
+        <lastmod>2014-01-18T09:42:26+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://twaka.net/blog/2014/01/13/book003/</loc>
+        <lastmod>2014-01-18T09:43:05+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://twaka.net/blog/archives/</loc>
+        <lastmod>2014-01-18T09:44:36+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://twaka.net/</loc>
+        <lastmod>2014-01-18T09:44:36+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://twaka.net/robots.txt</loc>
+        <lastmod>2014-01-18T09:01:26+09:00</lastmod>
+    </url>
+</urlset>

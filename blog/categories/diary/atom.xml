@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: diary | NYSDL CC0]]></title>
+  <link href="http://twaka.net/blog/categories/diary/atom.xml" rel="self"/>
+  <link href="http://twaka.net/"/>
+  <updated>2014-01-18T09:44:49+09:00</updated>
+  <id>http://twaka.net/</id>
+  <author>
+    <name><![CDATA[Takuma Wakamori]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[はじめに]]></title>
+    <link href="http://twaka.net/blog/2014/01/13/title/"/>
+    <updated>2014-01-13T09:33:47+09:00</updated>
+    <id>http://twaka.net/blog/2014/01/13/title</id>
+    <content type="html"><![CDATA[<p>このブログは私の備忘録です。</p>
+]]></content>
+  </entry>
+  
+</feed>
