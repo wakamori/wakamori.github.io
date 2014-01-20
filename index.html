@@ -124,7 +124,7 @@
   
 
 
-<i class="icon-calendar-empty"></i> <time datetime="2014-01-20T00:00:00+09:00" pubdate data-updated="true"></time></h5>
+<i class="icon-calendar-empty"></i> <time datetime="2014-01-20T23:55:37+09:00" pubdate data-updated="true">Jan 20<span>th</span>, 2014</time></h5>
           <div class="row-fluid">
           
           <a href="http://twaka.net/blog/2014/01/20/tips/#disqus_thread">Comments </a> <span class="fui-bubble-16"></span>
@@ -133,24 +133,28 @@
           
           <div class="row-fluid">
           
+          <a href="/blog/categories/shell/"><span class="badge">shell</span></a>
+          
+          <a href="/blog/categories/tips/"><span class="badge">tips</span></a>
+          
           </div>
           
     </div>
     <div class="span10 post-container">
-      <h1 class="link"><a href="/blog/2014/01/20/tips/">Tips</a></h1>
+      <h1 class="link"><a href="/blog/2014/01/20/tips/">lessからtail -fに移行する</a></h1>
       <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>less &lt;filename&gt;</span></code></pre></td></tr></table></div></figure>
 
 
-<p>$B$G%U%!%$%k$r1\MwCf$K(B<code>Shift+f</code>$B$r2!$9$H!&ldquo;(B</p>
+<p>でファイルを閲覧中に<code>Shift+f</code>を押すと、</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>tail -f &lt;filename&gt;</span></code></pre></td></tr></table></div></figure>
 
 
-<p>$B$r&lt;B9T$7$?;~$HF1$8>uBV$X0\9T$G$&ndash;$k!#$=$N>uBV$+$i(B<code>Ctrl+c</code>$B$r2!$9$H$U$?$?$S(Bless$B$KLa$k!#(B</p>
+<p>を実行した時と同じ状態へ移行できる。その状態から<code>Ctrl+c</code>を押すとふたたびlessに戻る。</p>
 
-<p>$B%m%0%U%!%$%k$J$I$R$?$9$iDI5-$5$l$F$$$/%U%!%$%k$KBP$7$F!&ldquo;(Bless$B$G8!:w$r$+$1$k;~$K;H$($k!#(B</p>
+<p>ログファイルなどひたすら追記されていくファイルに対して、lessで検索をかける時に使える。</p>
 
       
       
