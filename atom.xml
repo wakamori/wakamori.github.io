@@ -4,7 +4,7 @@
   <title><![CDATA[NYSDL CC0]]></title>
   <link href="http://twaka.net/atom.xml" rel="self"/>
   <link href="http://twaka.net/"/>
-  <updated>2014-01-26T16:21:30+09:00</updated>
+  <updated>2014-01-26T16:22:59+09:00</updated>
   <id>http://twaka.net/</id>
   <author>
     <name><![CDATA[Takuma Wakamori]]></name>
@@ -14,19 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Math Girls]]></title>
+    <title type="html"><![CDATA[数学ガール - 結城浩]]></title>
     <link href="http://twaka.net/blog/2014/01/26/math-girls/"/>
-    <updated>2014-01-26T00:00:00+09:00</updated>
+    <updated>2014-01-26T15:43:31+09:00</updated>
     <id>http://twaka.net/blog/2014/01/26/math-girls</id>
-    <content type="html"><![CDATA[<p>r&mdash;&ndash;
-layout: post
-title: &ldquo;数学ガール &ndash; 結城浩&rdquo;
-date: 2014-01-26 15:43:31 +0900
-comments: true</p>
-
-<h2>categories: [books]</h2>
-
-<p><a href="http://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB-%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-1-%E7%B5%90%E5%9F%8E-%E6%B5%A9/dp/4797341378%3FSubscriptionId%3DAKIAJMMVYLENYEJLN7XA%26tag%3Dnisdlcc0-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4797341378"><img src="http://ecx.images-amazon.com/images/I/41xPYoL7N8L._SL160_.jpg" /></a></p>
+    <content type="html"><![CDATA[<p><a href="http://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB-%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-1-%E7%B5%90%E5%9F%8E-%E6%B5%A9/dp/4797341378%3FSubscriptionId%3DAKIAJMMVYLENYEJLN7XA%26tag%3Dnisdlcc0-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4797341378"><img src="http://ecx.images-amazon.com/images/I/41xPYoL7N8L._SL160_.jpg" /></a></p>
 
 <p>ずっと積み本になっていた数学ガールをようやく真剣に読み始めた。</p>
 
