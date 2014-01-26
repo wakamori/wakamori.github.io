@@ -4,7 +4,7 @@
   <title><![CDATA[NYSDL CC0]]></title>
   <link href="http://twaka.net/atom.xml" rel="self"/>
   <link href="http://twaka.net/"/>
-  <updated>2014-01-26T16:22:59+09:00</updated>
+  <updated>2014-01-27T00:35:21+09:00</updated>
   <id>http://twaka.net/</id>
   <author>
     <name><![CDATA[Takuma Wakamori]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cの間接演算子(*)の優先順位]]></title>
+    <link href="http://twaka.net/blog/2014/01/26/c-operator-precedence/"/>
+    <updated>2014-01-26T23:53:19+09:00</updated>
+    <id>http://twaka.net/blog/2014/01/26/c-operator-precedence</id>
+    <content type="html"><![CDATA[
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span class="kt">char</span> <span class="n">s</span><span class="p">[]</span> <span class="o">=</span> <span class="s">&quot;abc&quot;</span><span class="p">;</span>
+</span><span class='line'><span class="kt">char</span> <span class="o">**</span><span class="n">p</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">s</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>上記のような配列sの先頭アドレスへのポインタpから配列のn番目の要素へアクセスするには、</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'>  <span class="o">*</span><span class="n">p</span><span class="p">[</span><span class="n">n</span><span class="p">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>ではなく、</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'>  <span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">)[</span><span class="n">n</span><span class="p">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>としなければならない。その理由は、演算子<code>[]</code>の方が演算子<code>*</code>よりも優先順位が高いから。(参考: <a href="http://ja.wikipedia.org/wiki/%E6%BC%94%E7%AE%97%E5%AD%90%E3%81%AE%E5%84%AA%E5%85%88%E9%A0%86%E4%BD%8D">演算子の優先順位 &ndash; Wikipedia</a>)</p>
+
+<p>Cプログラムをgdbでデバッグする際などに、上記のことを忘れていて「！？」となることがあるのでメモしておく。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[数学ガール - 結城浩]]></title>
