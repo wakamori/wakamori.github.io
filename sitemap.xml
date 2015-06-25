@@ -1,43 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
-    <url>
-        <loc>http://twaka.net/blog/2014/01/13/title/</loc>
-        <lastmod>2014-01-18T09:44:36+09:00</lastmod>
-    </url>
-    <url>
-        <loc>http://twaka.net/blog/2014/01/13/book001/</loc>
-        <lastmod>2014-01-18T09:39:35+09:00</lastmod>
-    </url>
-    <url>
-        <loc>http://twaka.net/blog/2014/01/13/book002/</loc>
-        <lastmod>2014-01-18T09:42:26+09:00</lastmod>
-    </url>
-    <url>
-        <loc>http://twaka.net/blog/2014/01/13/book003/</loc>
-        <lastmod>2014-01-18T09:43:05+09:00</lastmod>
-    </url>
-    <url>
-        <loc>http://twaka.net/blog/2014/01/20/tips/</loc>
-        <lastmod>2014-01-21T00:02:11+09:00</lastmod>
-    </url>
-    <url>
-        <loc>http://twaka.net/blog/2014/01/26/math-girls/</loc>
-        <lastmod>2014-01-26T23:52:23+09:00</lastmod>
-    </url>
-    <url>
-        <loc>http://twaka.net/blog/2014/01/26/c-operator-precedence/</loc>
-        <lastmod>2014-01-27T00:33:42+09:00</lastmod>
-    </url>
-    <url>
-        <loc>http://twaka.net/blog/archives/</loc>
-        <lastmod>2014-01-27T00:33:42+09:00</lastmod>
-    </url>
-    <url>
-        <loc>http://twaka.net/</loc>
-        <lastmod>2014-01-27T00:33:42+09:00</lastmod>
-    </url>
-    <url>
-        <loc>http://twaka.net/robots.txt</loc>
-        <lastmod>2014-01-18T09:01:26+09:00</lastmod>
-    </url>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://yoursitehere/</loc>
+    <lastmod>2015-06-26T01:21:34+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://yoursitehere/post/first/</loc>
+    <lastmod>2015-06-26T01:21:34+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursitehere/about/</loc>
+    <lastmod>2015-06-26T01:20:35+09:00</lastmod>
+  </url>
+  
 </urlset>
