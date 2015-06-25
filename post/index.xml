@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
-    <link>http://yourSiteHere/post/</link>
+    <title>NYSDL CC0 </title>
+    <link>http://twaka.net/post/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2015</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>first</title>
-          <link>http://yoursitehere/post/first/</link>
+          <link>http://twaka.net/post/first/</link>
           <pubDate>Fri, 26 Jun 2015 01:21:34 JST</pubDate>
           <author></author>
-          <guid>http://yoursitehere/post/first/</guid>
+          <guid>http://twaka.net/post/first/</guid>
           <description></description>
         </item>
       
