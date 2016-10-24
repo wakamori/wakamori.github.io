@@ -1,43 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title> </title>
-    <link>https://twaka.net/</link>
+    <title>Young Forest</title>
+    <link>https://twaka.net/index.xml</link>
+    <description>Recent content on Young Forest</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2015</rights>
-    <updated>2015-07-03 01:32:20 &#43;0900 JST</updated>
-
+    <lastBuildDate>Fri, 03 Jul 2015 01:32:20 +0900</lastBuildDate>
+    <atom:link href="https://twaka.net/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Read it later</title>
+      <link>https://twaka.net/post/read-it-later/</link>
+      <pubDate>Fri, 03 Jul 2015 01:32:20 +0900</pubDate>
       
-        <item>
-          <title>Read it later</title>
-          <link>https://twaka.net/post/read-it-later/</link>
-          <pubDate>Fri, 03 Jul 2015 01:32:20 JST</pubDate>
-          <author></author>
-          <guid>https://twaka.net/post/read-it-later/</guid>
-          <description>&lt;ul&gt;
+      <guid>https://twaka.net/post/read-it-later/</guid>
+      <description>&lt;ul&gt;
 &lt;li&gt;Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Movement&lt;/li&gt;
 &lt;li&gt;Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>first</title>
+      <link>https://twaka.net/post/first/</link>
+      <pubDate>Fri, 26 Jun 2015 01:21:34 +0900</pubDate>
       
-        <item>
-          <title>first</title>
-          <link>https://twaka.net/post/first/</link>
-          <pubDate>Fri, 26 Jun 2015 01:21:34 JST</pubDate>
-          <author></author>
-          <guid>https://twaka.net/post/first/</guid>
-          <description>&lt;p&gt;This is my first post.&lt;/p&gt;
+      <guid>https://twaka.net/post/first/</guid>
+      <description>&lt;p&gt;This is my first post.&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>about</title>
+      <link>https://twaka.net/page/about/</link>
+      <pubDate>Fri, 26 Jun 2015 01:20:35 +0900</pubDate>
       
-    
+      <guid>https://twaka.net/page/about/</guid>
+      <description>
 
+&lt;h2 id=&#34;about-this-website&#34;&gt;About this website&lt;/h2&gt;
+
+&lt;p&gt;Just a memorandum.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
