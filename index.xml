@@ -2,13 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Young Forest</title>
-    <link>https://twaka.net/index.xml</link>
+    <link>https://twaka.net/</link>
     <description>Recent content on Young Forest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license.</copyright>
     <lastBuildDate>Fri, 03 Jul 2015 01:32:20 +0900</lastBuildDate>
-    <atom:link href="https://twaka.net/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://twaka.net/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Read it later</title>
@@ -16,11 +18,7 @@
       <pubDate>Fri, 03 Jul 2015 01:32:20 +0900</pubDate>
       
       <guid>https://twaka.net/2015/07/03/read-it-later/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Movement&lt;/li&gt;
-&lt;li&gt;Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Movement Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages  </description>
     </item>
     
     <item>
@@ -29,8 +27,7 @@
       <pubDate>Fri, 26 Jun 2015 01:21:34 +0900</pubDate>
       
       <guid>https://twaka.net/2015/06/26/first/</guid>
-      <description>&lt;p&gt;This is my first post.&lt;/p&gt;
-</description>
+      <description>This is my first post.</description>
     </item>
     
   </channel>
