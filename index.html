@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal website of Takuma Wakamori">
+    <title>Takuma Wakamori</title>
+    
+    <link rel="stylesheet" href="https://wakamori.github.io/style.css?h=a05e886ddbfe091a1a56">
+    
+    
+        
+    
+</head>
+<body>
+    
+    <header class="space">
+        <h1>Takuma Wakamori</h1>
+        
+        
+        <nav class="header-links">
+            
+            <a href="mailto:wakamori.takuma@gmail.com">Mail</a>
+            
+            <a href="https:&#x2F;&#x2F;github.com&#x2F;wakamori">GitHub</a>
+            
+            <a href="https:&#x2F;&#x2F;x.com&#x2F;twakamor">X</a>
+            
+            <a href="https:&#x2F;&#x2F;linkedin.com&#x2F;in&#x2F;takuma-wakamori&#x2F;">LinkedIn</a>
+            
+            
+        </nav>
+        
+    </header>
+    
+    
+    
+    
+    <main>
+        
+        <div >
+            <img src="profile.jpg" alt="Takuma Wakamori" class="profile-image">
+<p>Software engineer with experience in machine learning systems and data engineering.<br />
+I've worked on LLM-based applications, time-series forecasting, and big data processing.</p>
+<h2 id="work-experience">Work Experience</h2>
+<ul>
+<li><strong>Scientific Software Developer</strong> at Enthought G.K. (January 2025 - Present)</li>
+<li><strong>Research Scientist</strong> at NTT, Inc. (July 2019 - December 2024)</li>
+<li><strong>Research Scientist</strong> at NTT West, Inc. (July 2016 - June 2019)</li>
+<li><strong>Researcher</strong> at NTT, Inc. (April 2013 - June 2016)</li>
+</ul>
+<h2 id="education">Education</h2>
+<ul>
+<li>M.Eng., Yokohama National University, 2013</li>
+<li>B.Eng., Yokohama National University, 2011</li>
+</ul>
+<h2 id="publications">Publications</h2>
+<ul>
+<li>応答時間を考慮したストリームデータクリーニング手法の検討 (DEIM2016) [<a href="https://db-event.jpn.org/deim2016/papers/204.pdf">PDF</a>]</li>
+<li>MapReduceにおける頻出要素の分割による分散ソート高速化 (電子情報通信学会, 2015) [<a href="https://ci.nii.ac.jp/naid/110009944827/">Link</a>]</li>
+<li>カラム構造と圧縮によるHadoopからPostgreSQLへのロード高速化に関する実験と考察 (DEIM2014) [<a href="http://db-event.jpn.org/deim2014/final/proceedings/D1-5.pdf">PDF</a>]</li>
+<li>Reconfigurable Scripting Language with Programming Risk (IEEE ISSREW 2012) [<a href="https://doi.org/10.1109/ISSREW.2012.94">DOI</a>]</li>
+<li>ASPEN: 自動データ収集機能を備えた Web ベースプログラミング学習システム (情報教育シンポジウム2012) [<a href="http://id.nii.ac.jp/1001/00100240/">Link</a>]</li>
+<li>オンラインセキュリティ実験基盤 (夏のプログラミング・シンポジウム2011) [<a href="http://id.nii.ac.jp/1001/00082739/">Link</a>]</li>
+</ul>
+
+        </div>
+        
+        
+    </main>
+    
+    
+    <div class="dark-mode-buttons">
+        <button class="dark-mode-button" id="dark-mode-on"><img src="https://wakamori.github.io/dark_mode.svg" width="24" height="24" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></button>
+        <button class="dark-mode-button" id="dark-mode-off"><img src="https://wakamori.github.io/light_mode.svg" width="24" height="24" alt="Light mode" aria-label="light mode toggle" title="Light mode"></button>
+    </div>
+    <script>
+        const cls = document.querySelector("html").classList;
+        const sessionTheme = sessionStorage.getItem("theme");
+
+        function setDark() {
+            cls.add("dark-mode");
+            cls.remove("light-mode");
+            sessionStorage.setItem("theme", "dark");
+        }
+        function setLight() {
+            cls.add("light-mode");
+            cls.remove("dark-mode");
+            sessionStorage.setItem("theme", "light");
+        }
+
+        if (sessionTheme === "dark") {
+            setDark();
+        } else if (sessionTheme === "light") {
+            setLight();
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            setDark();
+        }
+
+        document.getElementById("dark-mode-on").addEventListener("click", function(e) {
+            setDark();
+        });
+        document.getElementById("dark-mode-off").addEventListener("click", function(e) {
+            setLight();
+        });
+    </script>
+    <noscript>
+        <style>
+            .dark-mode-buttons {
+                display: none;
+            }
+        </style>
+    </noscript>
+</body>
+</html>
